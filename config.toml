@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+homepage=""
+title = "Creative - Start Bootstrap Theme"
+
+[params]
+    description = "An Hugo version of startbootstraps.com `Creative` HTML theme"
+    favicon = "favicon.png" # Relative URL
+
+[params.contact]
+    phone = "+1 (202) 555-0149"
+    email = "contact@yourwebsite.com"

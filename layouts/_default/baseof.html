@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {{ partial "head.html" . }}
+
+    <body id="page-top">
+        {{ block "topnav" . }}
+            {{ partial "topnav.html" . }}
+        {{ end }}
+
+        <main role="main">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        {{ block "footer" .}}
+            {{ partial "footer.html" .}}
+        {{ end}}
+
+        {{ partial "script.html"}}
+    </body>
+
+</html>
